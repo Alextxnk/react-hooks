@@ -1,0 +1,21 @@
+.mainContainer {
+  heigth: 100vh;
+  white-space: nowrap;
+}
+
+.Sidebar {
+  box-shadow: 5px 0 5px -5px #333;
+  background: rgb(0, 7, 61);
+  color: white;
+}
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  width: 30px;
+  height: 30px;
+  margin: 1rem;
+}

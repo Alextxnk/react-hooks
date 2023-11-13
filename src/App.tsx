@@ -1,6 +1,6 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { routes, routesConfig } from "./routes";
-import { Layout } from "./components/Layout/Layout";
+import { Layout } from "./components/Layout";
 
 function App() {
   return (

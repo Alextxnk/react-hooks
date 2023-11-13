@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-computed-key */
 import { ReactElement } from "react";
 import { HomeWork1 } from "./pages/HomeWork1/HomeWork1";
 import { HomeWork2 } from "./pages/HomeWork2/HomeWork2";
