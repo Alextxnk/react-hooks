@@ -10,7 +10,7 @@ export const useCurrentRoute = () => {
       routes.find((route) => location.pathname.endsWith(route)) || routes[0];
     return {
       ...routesConfig[route],
-      route,
+      route
     };
   }, [location.pathname]);
 };

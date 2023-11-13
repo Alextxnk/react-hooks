@@ -11,12 +11,12 @@ interface IRoute {
 export const routesConfig: Record<string, IRoute> = {
   ["/homework1"]: {
     title: "Домашнее задание №1",
-    element: <HomeWork1 />,
+    element: <HomeWork1 />
   },
   ["/homework2"]: {
     title: "Домашнее задание №2",
-    element: <HomeWork2 />,
-  },
+    element: <HomeWork2 />
+  }
 };
 
 export const routes = Object.keys(routesConfig);
