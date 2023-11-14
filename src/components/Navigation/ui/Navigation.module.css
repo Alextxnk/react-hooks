@@ -2,6 +2,7 @@
   height: calc(100vh - 66px);
   overflow: auto;
   flex-shrink: 0;
+  overflow-x: hidden;
 }
 
 .link {

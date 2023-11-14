@@ -10,14 +10,14 @@ export const showAnimation = {
     width: 0,
     opacity: 0,
     transition: {
-      duration: 0.5
+      duration: 0.2
     }
   },
   show: {
     width: "auto",
     opacity: 1,
     transition: {
-      duration: 0.5
+      duration: 0.2
     }
   }
 };
@@ -49,16 +49,14 @@ const Sidebar: FC<PropsWithChildren> = ({ children }) => {
                 <div>
                   <X onClick={toggle} className={styles.menu} />
                 </div>
-                <div>
-                  <motion.h2
-                    variants={showAnimation}
-                    initial="hidden"
-                    animate="show"
-                    exit="hidden"
-                  >
-                    React Hooks Course
-                  </motion.h2>
-                </div>
+                <motion.div
+                  variants={showAnimation}
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
+                >
+                  <h2>React Hooks Course</h2>
+                </motion.div>
               </div>
             ) : (
               <div>
