@@ -18,7 +18,7 @@ export const Layout: FC<PropsWithChildren> = ({ children }) => {
       </SidebarProvider>
       <div className={styles.container}>
         <h2 className={styles.title}>{description || title}</h2>
-        {children}
+        <div className={styles.main}>{children}</div>
       </div>
     </div>
   );

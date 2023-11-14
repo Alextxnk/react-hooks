@@ -1,3 +1,5 @@
+import { Dice1 } from "../../components/Dice.v1";
+
 export const HomeWork1 = () => {
-  return <div>Решение домашнего задания №1</div>;
+  return <Dice1 />;
 };

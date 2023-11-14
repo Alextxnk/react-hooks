@@ -7,9 +7,17 @@
 .container {
   width: 100%;
   overflow: auto;
-  padding: 1rem;
 }
 
 .title {
   text-align: center;
+  margin: 1rem;
+}
+
+.main {
+  height: calc(100vh - 64px);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
