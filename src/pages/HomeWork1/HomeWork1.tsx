@@ -1,5 +1,5 @@
-import { Dice1 } from "../../components/Dice.v1";
+import { Dice } from "../../widgets/Dice";
 
 export const HomeWork1 = () => {
-  return <Dice1 />;
+  return <Dice />;
 };

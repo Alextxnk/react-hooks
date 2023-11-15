@@ -1,0 +1,19 @@
+.container {
+  padding-top: 70px;
+}
+
+.top_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.btns {
+  margin-top: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

@@ -1,0 +1,14 @@
+.container {
+  max-width: 1180px;
+  height: calc(100vh - 64px);
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.content {
+  h1 {
+    font-size: 96px;
+    white-space: nowrap;
+  }
+}
