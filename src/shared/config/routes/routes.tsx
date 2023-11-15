@@ -13,6 +13,7 @@ interface IRoute {
 export const routesConfig: Record<string, IRoute> = {
   ["/homework1"]: {
     title: "Домашнее задание №1 Упрощенное",
+    description: "См на следующей странице творческий вариант",
     element: <HomeWork1 />
   },
   ["/homework1hard"]: {

@@ -16,13 +16,15 @@ export const sides = [
 const Dice = () => {
   const [value, setValue] = useState<number>(1);
   const diceRef = useRef(null);
+  let random: number = 0;
 
   const randomDice = () => {
-    const random: number = _.random(1, 10);
+    // const random: number = _.random(1, 10);
+    random = _.random(1, 10);
 
     if (random >= 1 && random <= 6) {
       rollDice(random);
-      setValue(random);
+      // setValue(random);
     } else {
       randomDice();
     }
@@ -56,6 +58,7 @@ const Dice = () => {
       }
 
       diceRef.current.style.animation = "none";
+      setValue(random);
     }, 4050);
   };
 
@@ -69,7 +72,7 @@ const Dice = () => {
           ></div>
         ))}
       </div>
-      <div>{value}</div>
+      <span className="result">Результат: {value}</span>
       <button onClick={randomDice} className="roll">
         Roll Dice
       </button>
