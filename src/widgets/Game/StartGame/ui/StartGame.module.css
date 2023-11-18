@@ -6,9 +6,8 @@
   align-items: center;
 }
 
-.content {
-  h1 {
-    font-size: 96px;
-    white-space: nowrap;
-  }
+
+.h1 {
+  font-size: 96px;
+  white-space: nowrap;
 }

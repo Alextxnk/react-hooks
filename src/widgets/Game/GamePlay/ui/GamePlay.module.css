@@ -1,8 +1,10 @@
 .container {
-  padding-top: 70px;
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
 }
 
-.top_section {
+.topSection {
   display: flex;
   justify-content: space-around;
   align-items: end;
@@ -15,5 +17,4 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
 }

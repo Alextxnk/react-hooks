@@ -1,0 +1,15 @@
+.RulesContainer {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fbf1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.h2 {
+  font-size: 24px;
+}
+
+.text {
+  margin-top: 24px;
+}

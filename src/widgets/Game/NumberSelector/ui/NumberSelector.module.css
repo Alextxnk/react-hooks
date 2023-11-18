@@ -1,0 +1,21 @@
+.NumberSelectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.flex {
+  display: flex;
+  gap: 24px;
+}
+
+.p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}

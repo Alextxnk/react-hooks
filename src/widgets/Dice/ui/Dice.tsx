@@ -3,6 +3,15 @@ import _ from "lodash";
 
 import { classNames } from "../../../shared/lib";
 import "./Dice.css";
+// import { RoleDice } from "../../Game/RoleDice";
+import {
+  dice1,
+  dice2,
+  dice3,
+  dice4,
+  dice5,
+  dice6
+} from "../../../shared/assets/images";
 
 export const sides = [
   { position: "front" },
@@ -62,14 +71,15 @@ const Dice = () => {
     }, 4050);
   };
 
+  // const dices: string[] = [dice1, dice2, dice3, dice4, dice5, dice6];
+
   return (
     <div className="container">
       <div ref={diceRef} className="dice">
         {sides.map((side, index) => (
-          <div
-            key={index}
-            className={classNames("face", [side.position])}
-          ></div>
+          <div key={index} className={classNames("face", [side.position])}>
+            {/*<img src={dices[value]} alt={`dice ${value}`} />*/}
+          </div>
         ))}
       </div>
       <span className="result">Результат: {value}</span>

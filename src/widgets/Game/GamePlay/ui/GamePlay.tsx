@@ -1,15 +1,19 @@
-import { useState } from 'react';
-
+import { useState } from "react";
+import { NumberSelector } from "../../NumberSelector";
+import { TotalScore } from "../../TotalScore";
+import { RoleDice } from "../../RoleDice";
+import Rules from "../../Rules/ui/Rules";
 import { Button } from "../../../../shared/ui/Button";
 
 import styles from "./GamePlay.module.css";
+// import { Dice } from "../../../Dice";
 
 const GamePlay = () => {
-  const [score, setScore] = useState(0);
-  const [selectedNumber, setSelectedNumber] = useState();
-  const [currentDice, setCurrentDice] = useState(1);
-  const [error, setError] = useState("");
-  const [showRules, setShowRules] = useState(false);
+  const [score, setScore] = useState<number>(0);
+  const [selectedNumber, setSelectedNumber] = useState<number>();
+  const [currentDice, setCurrentDice] = useState<number>(1);
+  const [error, setError] = useState<string>("");
+  const [showRules, setShowRules] = useState<boolean>(false);
 
   const generateRandomNumber = (min: number, max: number) => {
     return Math.floor(Math.random() * (max - min) + min);
@@ -22,7 +26,7 @@ const GamePlay = () => {
     }
 
     const randomNumber = generateRandomNumber(1, 7);
-    setCurrentDice((prev) => randomNumber);
+    setCurrentDice(randomNumber);
 
     if (selectedNumber === randomNumber) {
       setScore((prev) => prev + randomNumber);
@@ -39,7 +43,7 @@ const GamePlay = () => {
 
   return (
     <main className={styles.container}>
-      {/* <div className={styles.top_section}>
+      <div className={styles.topSection}>
         <TotalScore score={score} />
         <NumberSelector
           error={error}
@@ -49,14 +53,17 @@ const GamePlay = () => {
         />
       </div>
       <RoleDice currentDice={currentDice} roleDice={roleDice} />
+      {/*<Dice />*/}
       <div className={styles.btns}>
-        <OutlineButton onClick={resetScore}>Reset Score</OutlineButton>
+        <Button className="outline" onClick={resetScore}>
+          Reset Score
+        </Button>
         <Button onClick={() => setShowRules((prev) => !prev)}>
           {showRules ? "Hide" : "Show"} Rules
         </Button>
       </div>
 
-      {showRules && <Rules />} */}
+      {showRules && <Rules />}
     </main>
   );
 };
