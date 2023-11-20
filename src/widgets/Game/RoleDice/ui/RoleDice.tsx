@@ -22,7 +22,7 @@ const RoleDice = ({ roleDice, currentDice }: RoleDiceProps) => {
       <div className={styles.dice} onClick={roleDice}>
         <img src={dices[currentDice - 1]} alt={`dice ${currentDice}`} />
       </div>
-      <p className={styles.p}>Click on Dice to roll</p>
+      <p className={styles.p}>Нажмите на кости, чтобы бросить их</p>
     </div>
   );
 };

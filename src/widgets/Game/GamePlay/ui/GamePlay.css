@@ -1,12 +1,25 @@
-.diceContainer {
-  display: grid;
-  place-items: center;
-  width: 600px;
-  height: 600px;
-  padding: 1rem;
-  border-radius: 30px;
-  background: rgba(100, 100, 100, 0.2);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.gamePlayContainer {
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.buttons {
+  margin-top: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .flex {
@@ -78,9 +91,4 @@
 
 .left {
   transform: rotateY(-90deg) translateZ(125px);
-}
-
-.result {
-  font-size: 20px;
-  font-weight: bold;
 }

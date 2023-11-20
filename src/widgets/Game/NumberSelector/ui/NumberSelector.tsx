@@ -36,7 +36,7 @@ const NumberSelector = ({
           </Box>
         ))}
       </div>
-      <p className={styles.p}>Select Number</p>
+      <p className={styles.p}>Выберите число</p>
     </div>
   );
 };

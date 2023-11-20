@@ -8,7 +8,7 @@ const TotalScore = ({ score }: TotalScoreProps) => {
   return (
     <div className={styles.ScoreContainer}>
       <h1 className={styles.h1}>{score}</h1>
-      <p className={styles.p}>Total Score</p>
+      <p className={styles.p}>Общий счет</p>
     </div>
   );
 };

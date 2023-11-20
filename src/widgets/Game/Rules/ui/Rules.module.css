@@ -1,5 +1,5 @@
 .RulesContainer {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 40px auto;
   background-color: #fbf1f1;
   padding: 20px;
@@ -12,4 +12,5 @@
 
 .text {
   margin-top: 24px;
+  font-size: 18px;
 }

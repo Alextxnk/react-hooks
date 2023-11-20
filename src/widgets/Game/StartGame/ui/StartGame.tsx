@@ -14,8 +14,8 @@ const StartGame = ({ toggle }: StartGameProps) => {
         <img src={dices} alt="Dices" />
       </div>
       <div className={styles.content}>
-        <h1 className={styles.h1}>Dice Game</h1>
-        <Button onClick={toggle}>Play Now</Button>
+        <h1 className={styles.h1}>Игра в Кости</h1>
+        <Button onClick={toggle}>Играть</Button>
       </div>
     </div>
   );
