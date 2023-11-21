@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-hooks/static/css/main.01e804a0.css",
-    "main.js": "/react-hooks/static/js/main.cd32ac54.js",
+    "main.css": "/react-hooks/static/css/main.b1088b4f.css",
+    "main.js": "/react-hooks/static/js/main.0c9427e9.js",
     "static/media/dices.png": "/react-hooks/static/media/dices.dd209eaf1218f8d4fda3.png",
     "static/media/dice_6.png": "/react-hooks/static/media/dice_6.6104664d856f0f10cfbc.png",
     "static/media/dice_5.png": "/react-hooks/static/media/dice_5.10a549d914f4c6e380cd.png",
@@ -10,11 +10,11 @@
     "static/media/dice_2.png": "/react-hooks/static/media/dice_2.078a8c75a55e5be352bc.png",
     "static/media/dice_1.png": "/react-hooks/static/media/dice_1.988b89e3409995d4536b.png",
     "index.html": "/react-hooks/index.html",
-    "main.01e804a0.css.map": "/react-hooks/static/css/main.01e804a0.css.map",
-    "main.cd32ac54.js.map": "/react-hooks/static/js/main.cd32ac54.js.map"
+    "main.b1088b4f.css.map": "/react-hooks/static/css/main.b1088b4f.css.map",
+    "main.0c9427e9.js.map": "/react-hooks/static/js/main.0c9427e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.01e804a0.css",
-    "static/js/main.cd32ac54.js"
+    "static/css/main.b1088b4f.css",
+    "static/js/main.0c9427e9.js"
   ]
 }
