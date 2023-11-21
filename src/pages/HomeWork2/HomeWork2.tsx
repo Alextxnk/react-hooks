@@ -1,3 +1,10 @@
+import ScrollBar from "../../widgets/ScrollBar/ui/ScrollBar";
+
 export const HomeWork2 = () => {
-  return <div>Решение домашнего задания №2</div>;
+  return (
+    <div>
+      <ScrollBar />
+      <div style={{ height: "500vh" }}></div>
+    </div>
+  );
 };

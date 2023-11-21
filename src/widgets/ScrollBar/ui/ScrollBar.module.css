@@ -1,0 +1,15 @@
+.progressWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.progressBar {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 40%;
+  height: 5px;
+  background-color: #2d3359;
+}

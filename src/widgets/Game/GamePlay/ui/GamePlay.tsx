@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { NumberSelector } from "../../NumberSelector";
 import { TotalScore } from "../../TotalScore";
-import Rules from "../../Rules/ui/Rules";
+import { Rules } from "../../Rules";
 import { Button } from "../../../../shared/ui/Button";
 import {
   dice1,
