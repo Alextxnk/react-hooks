@@ -82,9 +82,6 @@ const Dice = () => {
       </div>
       <span className="result">Результат: {value}</span>
       <Button onClick={randomDice}>Бросить кости</Button>
-      {/*<button onClick={randomDice} className="roll">
-        Бросить кости
-      </button>*/}
     </div>
   );
 };

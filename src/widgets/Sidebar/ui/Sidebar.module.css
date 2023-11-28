@@ -1,5 +1,6 @@
 .mainContainer {
   white-space: nowrap;
+  position: fixed;
 }
 
 .Sidebar {
